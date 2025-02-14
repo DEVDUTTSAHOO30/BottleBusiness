@@ -24,7 +24,7 @@ export const WavyBackground = ({
     blur?: number;
     speed?: "slow" | "fast";
     waveOpacity?: number;
-    [key: string]: any;
+    [key: string]: unknown;
 }) => {
     const noise = createNoise3D();
     let w: number,

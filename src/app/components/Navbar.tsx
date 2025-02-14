@@ -103,7 +103,7 @@ export const ProductItem = ({ title, description, href, src }: { title: string; 
     );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({ children, ...rest }: React.PropsWithChildren<{ href: string }>) => {
     return (
         <Link {...rest} className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">
             {children}

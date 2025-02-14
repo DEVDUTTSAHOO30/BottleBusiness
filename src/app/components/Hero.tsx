@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Hero() {
     return (
         <section className="flex flex-col items-center justify-center text-center py-20">
-            <h1 className="text-4xl md:text-6xl font-bold text-blue-600">
+            <h1 className="text-4xl md:text-6xl font-bold ">
                 The Smart Water Bottle <br /> That **Never Lets You Down**
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mt-4">
+            <p className="text-lg text-gray-400 max-w-2xl mt-4">
                 Stay hydrated without leaks! Our innovative water bottle is designed
                 for durability, convenience, and zero spills.
             </p>

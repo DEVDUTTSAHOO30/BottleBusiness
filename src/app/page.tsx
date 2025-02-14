@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+//import { Navbar } from "./components/Navbar";
 import { TypewriterEffectSmoothDemo } from "./components/typewriterEffect";
 //import { GlobeDemo } from "./components/globedemo";
 import { WavyBackgroundDemo } from "./components/wavyDemo";

@@ -74,6 +74,7 @@ export const WavyBackground = ({
     const drawWave = (n: number) => {
         nt += getSpeed();
         for (i = 0; i < n; i++) {
+            if (!ctx) return;
             ctx.beginPath();
             ctx.lineWidth = waveWidth || 50;
             ctx.strokeStyle = waveColors[i % waveColors.length];
@@ -88,6 +89,7 @@ export const WavyBackground = ({
 
     let animationId: number;
     const render = () => {
+        if (!ctx) return;
         ctx.fillStyle = backgroundFill || "black";
         ctx.globalAlpha = waveOpacity || 0.5;
         ctx.fillRect(0, 0, w, h);

@@ -6,7 +6,7 @@ export function TypewriterEffectSmoothDemo() {
         { text: "the", },
         { text: "future", },
         { text: "of", },
-        { text: "hydration.", className: "text-blue-500 dark:text-blue-400" },
+        { text: "hydration.", className: "text-blue-500 dark:text-blue-500" },
     ];
     return (
         <div className="flex flex-col items-center justify-center h-[40rem] text-center">

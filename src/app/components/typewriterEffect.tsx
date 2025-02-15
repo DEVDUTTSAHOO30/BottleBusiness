@@ -17,7 +17,7 @@ export function TypewriterEffectSmoothDemo() {
             <TypewriterEffectSmooth words={words} />
 
             <p className="mt-4 text-lg sm:text-xl font-semibold text-white">
-                Experience innovation with <span className="text-blue-500">AquaFlow</span>.
+                Experience innovation with <span className="text-blue-500">AquaDrip</span>.
             </p>
 
             {/* <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-6">

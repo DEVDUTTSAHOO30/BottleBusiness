@@ -13,14 +13,14 @@ export function ThreeDCardDemo2() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                    The First-Ever Hydration Challenge!
+                    AquaDrip IntelliLeak
                 </CardItem>
                 <CardItem
                     as="p"
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                    Meet the **AquaDrip S-1**—the water bottle that keeps you on your toes! Can you keep up with its unexpected spills? Stay hydrated, stay alert!
+                    Powered by questionable AI, AquaDrip IntelliLeak "predicts" when you need to drink based on your BMI and leaks accordingly—keeping hydration fun, unexpected, and slightly chaotic.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                     <Image

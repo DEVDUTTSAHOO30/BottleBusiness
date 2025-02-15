@@ -13,14 +13,14 @@ export function ThreeDCardDemo() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                    The First-Ever Hydration Challenge!
+                    AquaDrip SportFlow
                 </CardItem>
                 <CardItem
                     as="p"
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                    Meet the **AquaDrip S-1**—the water bottle that keeps you on your toes! Can you keep up with its unexpected spills? Stay hydrated, stay alert!
+                    Designed for athletes and fitness enthusiasts, the AquaDrip SportFlow releases water only when you want it, ensuring zero distractions during intense workouts.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                     <Image

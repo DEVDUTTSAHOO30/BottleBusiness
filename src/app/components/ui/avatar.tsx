@@ -1,5 +1,6 @@
 // components/ui/avatar.tsx
 import React from "react";
+import Image from "next/image";
 
 interface AvatarProps {
     children: React.ReactNode;
@@ -20,7 +21,7 @@ interface AvatarImageProps {
 }
 
 export const AvatarImage: React.FC<AvatarImageProps> = ({ src, alt }) => {
-    return <img src={src} alt={alt || "Avatar"} className="w-full h-full object-cover" />;
+    return <Image width={48} height={48} src={src} alt={alt || "Avatar"} className="w-full h-full object-cover" />;
 };
 
 interface AvatarFallbackProps {

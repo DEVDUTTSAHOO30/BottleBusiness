@@ -1,7 +1,7 @@
 // components/Footer.tsx
 import React from "react";
 import Link from "next/link";
-import { FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaCcVisa, FaCcMastercard, FaCcPaypal } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 
 const socialLinks = [
     { href: "#", icon: <FaFacebook size={32} className="hover:text-blue-600" /> },

@@ -5,7 +5,7 @@ import { FaTwitter, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 
 const socialLinks = [
     { href: "#", icon: <FaFacebook size={32} className="hover:text-blue-600" /> },
-    { href: "#", icon: <FaInstagram size={32} className="hover:text-pink-500" /> },
+    { href: "https://www.instagram.com/_aqua_drip?igsh=ZG5remtvdHViM3V4", icon: <FaInstagram size={32} className="hover:text-pink-500" /> },
     { href: "#", icon: <FaTwitter size={32} className="hover:text-blue-400" /> },
     { href: "#", icon: <FaTiktok size={32} className="hover:text-gray-500" /> },
 ];
